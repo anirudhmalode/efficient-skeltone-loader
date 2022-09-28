@@ -1,0 +1,40 @@
+.postSk {
+  width: 900px;
+  margin-right: 12px;
+  margin-bottom: 30px;
+  animation: skeleton 1s ease infinite alternate;
+}
+
+@keyframes skeleton {
+  to {
+    opacity: 0.5;
+  }
+}
+
+.postSkImg {
+  background-color: #313131;
+  width: 900px;
+  height: 450px;
+}
+
+.postSkInfo {
+  display: flex;
+  margin-top: 15px;
+}
+
+.postSkDetail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.postSkText {
+  background-color: #313131;
+  width: 99%;
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.postSkText.sm {
+  width: 50%;
+}

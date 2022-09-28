@@ -1,0 +1,41 @@
+.post {
+  width: 900px;
+  margin-right: 12px;
+  margin-bottom: 30px;
+}
+
+.postImgContainer {
+  position: relative;
+  width: 900px;
+  height: 450px;
+}
+
+.postImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.postInfoContainer {
+  display: flex;
+  margin-top: 15px;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.postTitle {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.postChannel,
+.postDetail {
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaa;
+  margin-bottom: 3px;
+}
